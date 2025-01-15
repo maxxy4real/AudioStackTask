@@ -2,4 +2,4 @@
 `npm install`
 
 # Run
-`npm test` OR `npm cypress run`
+`npm test` OR `npx cypress run`
