@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "cypress run",
+    "test-browser": "cypress open",
+    "generate:report": "npx mochawesome-merge cypress/reports/*.json > cypress/reports/report.json && npx mochawesome-report-generator cypress/reports/report.json"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
